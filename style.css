@@ -1,0 +1,42 @@
+        body {
+          background-color:rgb(4, 56, 45);
+        }
+        ul,li{
+          background-color: white;
+          border-radius: 15px;
+          position: center;
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+        }
+        .nomargin {
+          width: auto;
+          margin: 0;
+        }
+
+        .container {
+          background-color: rgba(42, 66, 61, 0.986);
+          padding: 0;
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          grid-template-rows: repeat(1, 1fr);
+          margin: 5px auto;
+          gap: 20px;
+          position: relative;
+          width: 100vh;
+          justify-content: center;
+        }
+        .card {
+          display:flex;
+          justify-content: center;
+          width: auto;
+          height: auto;
+          margin: 1rem 20px 3rem 20px;
+          border-radius: 15px;
+          position: center;
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+          text-align: center;
+          background-color: white;
+        }
+        h3 {
+          margin-top: 20px;
+        }
